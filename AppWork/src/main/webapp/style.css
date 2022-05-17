@@ -1,0 +1,146 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+	background-image:url("bbb.jpg");
+    background-color:white;
+}
+.wrapper{
+    width:80%;
+    height:1000px;
+    background-color:antiquewhite;
+    margin:0 auto;
+}
+
+.rcorners1{
+    border-radius: 25px;
+    background:antiquewhite;
+    padding: 20px;
+    width: 300px;
+    height: 200px;
+    margin-top:15%;
+    margin-bottom:10%;
+}
+
+.rcorners2{
+    border-radius: 25px;
+    background:antiquewhite;
+    padding: 20px;
+    width: 600px;
+    height:500px;
+    margin-top:5%;
+    margin-bottom:5%;
+}
+
+.rcorners3{
+    border-radius: 25px;
+    background:antiquewhite;
+    padding: 20px;
+    width: 500px;
+    height:400px;
+    margin-top:10%;
+    margin-bottom:10%;
+}
+
+div.container {
+  width: 100%;
+  border: 2px solid black;
+}
+
+div.box {
+  box-sizing: border-box;
+  width: 50%;
+  border: 5px solid red;
+  float: left;
+}
+
+input{
+	margin-right:5px;
+	margin-left:10px;
+}
+
+.heading{
+    margin:0;
+    width:100%;
+    height:90px;
+    background-image:url("aaa.jpg");
+    margin:0 auto;
+}
+.heading_title{
+    float:middle;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:30px;
+    color:white;
+}
+.heading_nav{
+    padding-bottom:30px;
+    padding-top:30px;
+    width:100%;
+    height:10px;
+    position:relative;
+}
+
+ul{
+    margin-left:40px;
+    float:left;
+    list-style-type:none;
+    padding-top:6px;
+    padding-bottom:6px;
+}
+li{
+    padding-left:10px;
+    display:inline-block;
+}
+a:link,a:visited{
+    font-weight:bold;
+    color:darkgray;
+    text-align:center;
+    padding:6px;
+    text-decoration:none;
+}
+a:hover,a£»active{
+    color:dimgray;
+}
+.heading_img img{
+    border-radius:30px;
+    display:inline;
+    width:26px;
+    height:26px;
+    box-shadow:0 1px 1px rgba(0,0,0,0.2);
+    float:right;
+}
+.heading_soptlight form{
+    float:right;
+    width:100px;
+    height:26px;
+    position:relative;
+    margin-right:80px;
+}
+form input{
+    height:26px;
+    border-radius:30px;
+}
+
+.body{
+    padding:30px;
+    height:auto;
+    width:auto;
+}
+.body_title h3{
+    font-size:30px;
+    font-family:Arial, Helvetica, sans-serif;
+    color:#333;
+}
+.body_title p{
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+.footing{
+    padding-top:20px;
+    text-align:center;
+    font-size:10px;
+    color:white;
+    padding-bottom:20px;
+}
